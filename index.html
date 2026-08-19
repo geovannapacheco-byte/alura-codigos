@@ -1,41 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-          <title>Blog</title>
-          <style>
-            header{
-                background-color: #AED5FF;
-                color: #1C3B5D
-                text-align: center;
-            }
-            
-          </style>
-    <title>Document</title>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Bovinocultura</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef5e8;
+    text-align:center;
+    color:#3e2723;
+}
+header{
+    background:#6d4c41;
+    color:white;
+    padding:20px;
+}
+.card{
+    background:white;
+    max-width:450px;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 3px 10px #999;
+}
+button{
+    background:#558b2f;
+    color:white;
+    border:0;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+</style>
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compatilhar conhecimentos sobre tecnologias e programação</p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia
+
+<header>
+<h1>🐄 Bovinocultura</h1>
+<p>Criação e manejo de bovinos</p>
+</header>
+
+<div class="card">
+<h2>🌱 Produção de Gado</h2>
+<p>🐂 Alimentação: Pastagem</p>
+<p>💧 Água: Disponível</p>
+<p>💉 Saúde: Vacinação em dia</p>
+<p>🥩 Produção: Corte</p>
+
+<button onclick="dica()">Ver dica</button>
+<p id="dica"></p>
+</div>
+
+<script>
+function dica(){
+document.getElementById("dica").innerHTML =
+"💡 Mantenha os animais bem alimentados, hidratados e saudáveis!";
+}
+</script>
 
 </body>
 </html>
-<header>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-</header>
-<main>
-    <div>
-<h2>Meu primeiro post</h2>
-<p>Por: Geovanna Pacheco</p>
-<p>Meu Blog Tech
-
-Bem-vindo ao Meu Blog Tech! Este é um espaço criado para compartilhar conhecimentos sobre tecnologia, programação e inovação. Aqui você encontrará conteúdos voltados para quem está começando e também para quem deseja aprender algo novo na área da tecnologia.
-<button>❤️<span>0</span></button>
-   </div>
-</main>
-<body>
-    <script>
-
-
